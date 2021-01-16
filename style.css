@@ -648,6 +648,7 @@ input:required, textarea:required {
     .navbar-toggler-icon {
       width: 10rem;
       height: 10rem;
+      color: blue;
     }
 }
 
