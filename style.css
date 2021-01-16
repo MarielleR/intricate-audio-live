@@ -490,28 +490,6 @@ input:required, textarea:required {
   padding: 5px;
 }
 
-/* Media Queries */
-/* Home Page */
-@media (max-width: 1009px) {
-    .topnav-home a {
-        width: 16%;
-        margin-top: 2rem;
-        margin-left: 2rem;
-        transition: all 0.2s ease-in-out;
-        text-align: left;
-        font-size: 1.2rem;
-    }
-
-    .topnav-home a:hover,
-    .topnav-home a:focus,
-    .topnav-home a:focus-within {
-        color: yellow;
-        border-bottom: none;
-        transform: scale(1.05);
-        font-weight: bolder;
-    }
-}
-
 /* Portfolio Styles */
 .portfolio-title {
   text-transform: uppercase;
@@ -603,6 +581,53 @@ input:required, textarea:required {
   opacity: 1;
 }
 
+
+/* Media Queries */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+/* Home Page */
+@media (max-width: 1009px) {
+    .topnav-home a {
+        width: 16%;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        transition: all 0.2s ease-in-out;
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .topnav-home a:hover,
+    .topnav-home a:focus,
+    .topnav-home a:focus-within {
+        color: yellow;
+        border-bottom: none;
+        transform: scale(1.05);
+        font-weight: bolder;
+    }
+
+    .navbar-toggler {
+      width: 7rem;
+      height: 7rem;
+    }
+
+    i {
+      font-size: 4.8rem;
+    }
+}
+
+
 @media (max-width: 654px) {
     .topnav-home a {
         padding: 0;
@@ -617,9 +642,42 @@ input:required, textarea:required {
         text-align: left;
         font-size: 1.2rem;
     }
+
+      .navbar-toggler {
+      width: 8.2rem;
+      height: 8.2rem;
+    }
+
 }
 
+/* Service Page */
+@media (max-width: 1024px) {
+  .enclosure-design {
+    margin-bottom: 150px;
+  }
 
+  .service-container h4 {
+    margin-bottom: 60px;
+  }
+
+  .quote-container {
+    margin: 120px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .services-title h1 {
+    font-size: 6rem;
+  }
+
+  .services-header {
+    margin-bottom: 150px;
+  }
+
+  .quote-container {
+    margin-top: 120px;
+  }
+}
 
 
 /* Design Form */
