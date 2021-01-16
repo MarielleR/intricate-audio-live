@@ -290,7 +290,7 @@ input, select {
 /* About Page Styles*/
 
 .about-header {
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   margin-top: 80px;
 }
@@ -319,15 +319,12 @@ input, select {
 
 .about-container {
   height: 100vh;
-}
-
-.social-media-about {
-  margin-top: 30px;
-  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .img-text {
-  margin: 0 20px;
+  margin: 20px;
 }
 
 .img-text h2,
@@ -758,3 +755,5 @@ select {
   }
 
 }
+
+/* About Page */
