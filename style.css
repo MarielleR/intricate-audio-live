@@ -651,7 +651,7 @@ input:required, textarea:required {
 }
 
 /* Service Page */
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .enclosure-design {
     margin-bottom: 150px;
   }
