@@ -645,11 +645,10 @@ input:required, textarea:required {
         font-size: 1.2rem;
     }
 
-      .navbar-toggler-icon {
+    .navbar-toggler-icon {
       width: 10rem;
       height: 10rem;
     }
-
 }
 
 /* Service Page */
