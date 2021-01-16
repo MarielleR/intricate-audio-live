@@ -721,12 +721,14 @@ select {
 @media only screen and (max-width: 580px) {
   #contact-form{
      margin-top: 330px;
-      left: 3%;
+      left: 42%;
       /* margin-right: 3%; */
       /* width: 88%; */
-      margin-left: 5px;
+      margin-left: -260px;
       /* padding-left: 3%;
       padding-right: 3%; */
+      height: 70vh;
+      width: 70%;
    }
 
   .contact-form-class form {
