@@ -26,10 +26,8 @@ h4 {
 body, html {
   font-family: Verdana, sans-serif;
   font-size: 62.5%;
-  /* height: 100%; */
   margin: 0;
   background: #000;
-  /* overflow: hidden; */
 }
 
 html {
@@ -78,7 +76,6 @@ html {
 
 /* Navigation Styles */
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #333333;
 }
@@ -111,7 +108,8 @@ html {
 
 
 /* Home Page Styles */
-/* Increase height of black background */
+
+
 .container-fluid {
     height: 10vh;
 }
@@ -127,7 +125,6 @@ html {
 
 .hero-text {
   text-align: center;
-  /* Changed this from absolute */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -163,7 +160,6 @@ html {
   padding: 10px;
   position: relative;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, 0%);
   overflow:auto;
 }
@@ -174,7 +170,6 @@ th, td {
 .button {
   width: 150px;
   background-color: #000;
-/* Black */
   border-width: 0px;
   color: white;
   padding: 10px;
@@ -214,110 +209,10 @@ i:focus-within {
   color: yellow;
 }
 
-/* Design Form Page */
-
-.body-about {
-    
-}
-
-.design-quote-container {
-  padding-top: 100px;
-      display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(.//Assets/background.jpg);
-    overflow: -moz-hidden-unscrollable;
-    height: 100vh;
-    background-position: cover;
-    background-size: contain;
-}
-
-.contact-intro {
-  margin-bottom: 40px;
-}
-
-h1 {
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-}
-
-
-.design-form {
-  /* background-image: url(.//Assets/background.jpg); */
-  border-radius: 10px;
-  width: 90%;
-  /* height: 65vh; */
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-input, select {
-  background-color: white;
-  color: black;
-  font-size: 2rem;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 8px;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 2px 2px white;
-  text-transform: uppercase;
-}
-
-
-.form-row-1,
-.form-row-2,
-.form-row-3 {
-    text-align: center;
-    /* margin-bottom: 40px; */
-}
-
-/* #amplifier,
-#vehicle,
-#dimensions {
-  margin-bottom: 40px;
-} */
-.form-row-1 input,
-.form-row-2 input,
-.form-row-3 input {
-    width: 49%;
-}
-
-.input-a {
-  margin-right: 12px;
-}
-
-.submit {
-  display: flex;
-  width: 15%;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 1.2rem;
-  border-radius: 5px; 
-  border: none;  
-  cursor: pointer;
-  box-shadow: 2px 2px white;
-  background-color: white;
-  color: black;
-}
-
-.submit:hover,
-.submit:focus,
-.submit:focus-within {
-  background-color: yellow;
-}
 
 /* About Page Styles*/
 
 .about-header {
-  /* height: 100vh; */
   text-align: center;
   margin-top: 80px;
 }
@@ -365,6 +260,235 @@ input, select {
   font-size: 1.6rem;
 }
 
+
+
+/* Services Page Styles*/
+.services-header {
+  margin-bottom: 40px;
+}
+
+.services {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.service-container h2 {
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.service-container h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.enclosure-design {
+  margin-bottom: 50px;
+}
+
+.quote-container {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.quote-container a {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.quote-container a:focus-within {
+  color: #0a58ca;
+}
+
+.enclosure-design:hover,
+.enclosure-design:focus,
+.enclosure-design:focus-within,
+.sound-tuning:hover,
+.sound-tuning:focus,
+.sound-tuning:focus-within  {
+  background-color: rgba(77, 67, 67, 0.3);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Design Form Styles */
+
+.design-quote-container {
+  padding-top: 100px;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(.//Assets/background.jpg);
+    overflow: -moz-hidden-unscrollable;
+    height: 100vh;
+    background-position: cover;
+    background-size: contain;
+}
+
+.contact-intro {
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+.design-form {
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 2px 2px white;
+  text-transform: uppercase;
+}
+
+
+.form-row-1,
+.form-row-2,
+.form-row-3 {
+  text-align: center;
+}
+
+.form-row-1 input,
+.form-row-2 input,
+.form-row-3 input {
+  width: 49%;
+}
+
+.input-a {
+  margin-right: 12px;
+}
+
+.submit {
+  display: flex;
+  width: 15%;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px; 
+  border: none;  
+  cursor: pointer;
+  box-shadow: 2px 2px white;
+  background-color: white;
+  color: black;
+}
+
+.submit:hover,
+.submit:focus,
+.submit:focus-within {
+  background-color: yellow;
+}
+
+/* Portfolio Styles */
+.portfolio-title {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 40px 170px 40px;
+  margin-bottom: 90px;
+}
+
+.media-tile {
+  display: flex;
+  flex-direction: row;
+}
+
+.media {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.media-text {
+  margin-left: 70px;
+  width: 50%;
+}
+
+.media-text h2 {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.media:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  background: rgba(238, 218, 218, 0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.media:hover .overlay {
+  opacity: 1;
+}
+
+.gallery-img {
+  width: 100%;
+  margin: auto;
+  transform: scale(1);
+  transition: all ease-in-out 0.5s;
+}
+
+.media:hover img {
+  transform: scale(1.1);
+  filter: blur(2px);
+}
+
+.image-details {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  z-index: 4;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.media:hover .image-details {
+  top: 40%;
+  opacity: 1;
+}
 
 /* Contact Form Styles */
 .contact-body,
@@ -485,152 +609,9 @@ input:required, textarea:required {
 }
 
 
-/* Services Page Styles*/
-.services-header {
-  margin-bottom: 40px;
-}
-
-.services {
-  width: 90%;
-  max-width: 1280px;
-  margin: auto;
-}
-
-.service-container h2 {
-  margin-bottom: 15px;
-  font-weight: bolder;
-}
-
-.service-container h4 {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.enclosure-design {
-  margin-bottom: 50px;
-}
-
-.quote-container {
-  margin: 60px 0;
-  text-align: center;
-}
-
-.quote-container a {
-  text-decoration: none;
-  border: 1px solid blue;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.quote-container a:focus-within {
-  color: #0a58ca;
-}
-
-.enclosure-design:hover,
-.enclosure-design:focus,
-.enclosure-design:focus-within,
-.sound-tuning:hover,
-.sound-tuning:focus,
-.sound-tuning:focus-within  {
-  background-color: rgba(77, 67, 67, 0.3);
-  border-radius: 5px;
-  padding: 5px;
-}
-
-/* Portfolio Styles */
-.portfolio-title {
-  text-transform: uppercase;
-  margin-bottom: 40px;
-}
-
-.image-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  /* width: 60%; */
-  margin: 30px 40px 170px 40px;
-  margin-bottom: 90px;
-}
-
-.media-tile {
-  display: flex;
-  flex-direction: row;
-}
-
-.media {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  overflow: hidden;
-  position: relative;
-}
-
-
-.media-text {
-  margin-left: 70px;
-  width: 50%;
-}
-
-.media-text h2 {
-  margin-bottom: 30px;
-  line-height: 1.5;
-}
-
-
-
-.media:hover {
-  cursor: pointer;
-}
-
-.overlay {
-  background: rgba(238, 218, 218, 0.3);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 3;
-  opacity: 0;
-  transition: all ease-in-out 0.5s;
-}
-
-.media:hover .overlay {
-  opacity: 1;
-}
-
-.gallery-img {
-  width: 100%;
-  margin: auto;
-  transform: scale(1);
-  transition: all ease-in-out 0.5s;
-}
-
-.media:hover img {
-  transform: scale(1.1);
-  filter: blur(2px);
-}
-
-.image-details {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  z-index: 4;
-  position: absolute;
-  top: 100%;
-  opacity: 0;
-  transition: all ease-in-out 0.5s;
-}
-
-.media:hover .image-details {
-  top: 40%;
-  opacity: 1;
-}
-
-
 /* Media Queries */
-/* General Mobile styles */
+
+/* General Mobile Styles */
 @media (max-width: 500px) {
   h1 {
     font-size: 4rem;
@@ -693,6 +674,25 @@ input:required, textarea:required {
       width: 4rem;
       height: 4rem;
     }
+}
+
+/* About Page */
+@media (max-width: 550px) {
+  .about-title h2 {
+    font-size: 4rem;
+  }
+
+  .about-flex {
+    margin-bottom: 15px;
+  }
+
+  .img-text h1 {
+    font-size: 3rem;
+  }
+
+  .img-text h3 {
+    font-size: 2rem;
+  }
 }
 
 /* Service Page */
@@ -825,27 +825,6 @@ select {
 }
 } 
 
-
-/* Contact Page */
-@media (max-width: 580px) {
-  .contact-body,
-  .html-contact {
-    overflow: visible;
-  }
-
-  #contact-form {
-    width: 100vw;
-  }
-
-  .contact-form-class {
-    padding: 50px 15px;
-  }
-
-  #submit {
-    width: 35%;
-  }
-}
-
 /* Portfolio Page */
 @media only screen and (max-width: 900px) {
   .media {
@@ -892,21 +871,23 @@ select {
   }
 }
 
-/* About Page */
-@media (max-width: 550px) {
-  .about-title h2 {
-    font-size: 4rem;
+/* Contact Page */
+@media (max-width: 580px) {
+  .contact-body,
+  .html-contact {
+    overflow: visible;
   }
 
-  .about-flex {
-    margin-bottom: 15px;
+  #contact-form {
+    width: 100vw;
   }
 
-  .img-text h1 {
-    font-size: 3rem;
+  .contact-form-class {
+    padding: 50px 15px;
   }
 
-  .img-text h3 {
-    font-size: 2rem;
+  #submit {
+    width: 35%;
   }
 }
+
