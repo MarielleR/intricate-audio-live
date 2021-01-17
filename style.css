@@ -343,6 +343,11 @@ input, select {
 
 
 /* Contact Form Styles */
+.contact-body,
+.contact-html {
+  overflow: visible;
+}
+
 .contact-title-h1 {
   margin: 10px 0 0 0;
 }
@@ -356,26 +361,40 @@ input, select {
 }
 #contact-form {
   background-color:rgba(72,72,72,0.9);
-  padding: 10px 20px 30px 20px;
-  max-width:100%;
-  float: left;
-  left: 50%;
-  position: absolute;
+  padding: 10px 0px 30px 0px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  /* max-width:100%; */
+  /* float: left;
+  left: 50%; */
+  /* position: absolute;
   margin-top:30px;
   margin-left: -260px;
-  margin-bottom: 60px;
+  margin-bottom: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
   border-radius:7px;
   -webkit-border-radius:7px;
   -moz-border-radius:7px;
 }
 
+.contact-form-top{
+  text-align: center;
+}
 #contact-form input,   
 #contact-form select,   
 #contact-form textarea,   
-#contact-form label { 
-  font-size: 15px;  
-  margin-bottom: 2px;
+#contact-form label,
+#contact-form option { 
+  font-size: 20px;  
+  margin-bottom: 3px;
   font-family: Arial, san-serif;
+  text-align: center;
 } 
 #contact-form input,   
 #contact-form select,   
@@ -402,7 +421,7 @@ input, select {
 }
 #contact-form button[type="submit"] {
   cursor:pointer;
-  width:100%;
+  width:15%;
   border:none;
   background: blue;
   color:#FFF;
@@ -433,6 +452,10 @@ input:required, textarea:required {
 #contact-form .required {  
   font-weight:bold;  
   color: #E5E6E7;      
+}
+
+.contact-form-class {
+  text-align: center;
 }
 
 /* Hide success/failure message
@@ -718,18 +741,17 @@ select {
 
 
 /* Contact Page */
-@media only screen and (max-width: 580px) {
-  #contact-form{
-     margin-top: 330px;
-      left: 42%;
-      /* margin-right: 3%; */
-      /* width: 88%; */
-      margin-left: -260px;
-      /* padding-left: 3%;
-      padding-right: 3%; */
-      height: 70vh;
-      width: 70%;
-   }
+@media (max-width: 580px) {
+  .contact-body,
+  .html-contact {
+    overflow: visible;
+  }
+
+  #contact-form {
+  position: relative;
+  margin-top: 90px;
+  height: 80vh;
+  }
 
   .contact-form-class form {
     height: 50vh;
