@@ -201,7 +201,7 @@ footer {
 i {
     
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 5px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -640,7 +640,7 @@ input:required, textarea:required {
 /* General Mobile styles */
 @media (max-width: 500px) {
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -676,7 +676,7 @@ input:required, textarea:required {
         font-weight: bolder;
     }
     i {
-      font-size: 4.8rem;
+      font-size: 2.8rem;
     }
 }
 
@@ -697,9 +697,8 @@ input:required, textarea:required {
     }
 
     .navbar-toggler-icon {
-      width: 10rem;
-      height: 10rem;
-      color: blue;
+      width: 4rem;
+      height: 4rem;
     }
 }
 
@@ -720,15 +719,31 @@ input:required, textarea:required {
 
 @media (max-width: 550px) {
   .services-title h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .services-header {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   .quote-container {
     margin-top: 120px;
+  }
+
+  .enclosure-design h2,
+  .sound-tuning h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .enclosure-design h3,
+  .sound-tuning h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .quote-container h2{
+    font-size: 1.6rem;
   }
 }
 
@@ -826,21 +841,15 @@ select {
   }
 
   #contact-form {
-  position: relative;
-  margin-top: 90px;
-  height: 80vh;
+    width: 100vw;
   }
 
-  .contact-form-class form {
-    height: 50vh;
+  .contact-form-class {
+    padding: 50px 15px;
   }
 
-  .contact-form-class input {
-    font-size: 25px;
-  }
-
-  .contact-form-class label {
-    font-size: 25px;
+  #submit {
+    width: 35%;
   }
 }
 
@@ -882,23 +891,29 @@ select {
 @media (max-width: 550px) {
   .media-text h2 {
     font-size: 3rem;
+    text-align: center;
   }
   .media-text h3 {
-    font-size: 2.6rem;
+    font-size: 2rem;
+    text-align: center;
   }
 }
 
 /* About Page */
 @media (max-width: 550px) {
   .about-title h2 {
-    font-size: 6rem;
-  }
-
-  .img-text h1 {
     font-size: 4rem;
   }
 
+  .about-flex {
+    margin-bottom: 15px;
+  }
+
+  .img-text h1 {
+    font-size: 3rem;
+  }
+
   .img-text h3 {
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 }
