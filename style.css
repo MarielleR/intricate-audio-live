@@ -389,13 +389,6 @@ input, select {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 50px;
-  /* max-width:100%; */
-  /* float: left;
-  left: 50%; */
-  /* position: absolute;
-  margin-top:30px;
-  margin-left: -260px;
-  margin-bottom: 60px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -690,10 +683,10 @@ input:required, textarea:required {
         .topnav-home a {
         width: 16%;
         margin-top: 2rem;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         transition: all 0.2s ease-in-out;
         text-align: left;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .navbar-toggler-icon {
