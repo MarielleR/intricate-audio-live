@@ -260,6 +260,12 @@ i:focus-within {
   font-size: 1.6rem;
 }
 
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+
 
 
 /* Services Page Styles*/
@@ -562,7 +568,7 @@ input, select {
 }
 #contact-form button[type="submit"] {
   cursor:pointer;
-  width:15%;
+  width:45%;
   border:none;
   background: blue;
   color:#FFF;
